@@ -1,4 +1,4 @@
-How to Install
+# How to Install
 Run the Backend Locally
 
 To run the backend locally, follow these steps:
