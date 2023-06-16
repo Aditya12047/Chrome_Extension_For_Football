@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<header>
+    <title>Football Live Score</title>
+    <link rel="stylesheet" href="popup.css">
+</header>
+<body style="background-color: rgb(58, 58, 58); border: none;">
+    <div class="main">
+        <h3 class="label" style="margin-top: 0; margin-bottom: 0; text-align: center;">Football Matches & Live Score</h3>
+        <p style="color: rgb(169, 169, 169); font-size: 10px; margin-top: 0; text-align: center;">original data from <a href="https://www.goal.com" style="color: rgb(229, 227, 227); text-decoration: none;" >goal.com</a></p>
+        <div class="date-selector">
+            <table style="width: 100%; height: 1em;">
+                <tr>
+                    <td style="width: 12%; text-align: center;">
+                        <button class="arrow arrow-left" id="arrow-left"></button>
+                    </td>
+                    <td style="width: 76%; text-align: center;">
+                        <p class="label" id="display-date" style="font-size: 15px; margin: 0;">Today</p>
+                    </td>
+                    <td style="width: 12%; text-align: center;">
+                        <button class="arrow arrow-right" id="arrow-right"></button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="league-panel"></div>
+        <button id="more-button">More</button>
+    </div>
+    <script src="./popup.js" type="module"></script>
+</body>

@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Football Live Score",
+    "description": "Organizes your Chrome extension and Chrome Web store documentation tabs.",
+    "version": "1.0",
+    "icons": {
+      "16": "./app-icon.png",
+      "32": "./app-icon.png",
+      "48": "./app-icon.png",
+      "128": "./app-icon.png"
+    },
+    "permissions":[
+      "storage"
+    ],
+    "action": {
+      "default_popup": "src/popup.html"
+    },
+    "background": {
+      "service_worker": "src/service_worker.js"
+    }
+  }
